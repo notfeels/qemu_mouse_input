@@ -1,7 +1,9 @@
 # qemu_mouse_input
 
-1. create a spice server in vm
+using qemu to send mouse input to guest
 
+## how to use
+1. create a spice server in vm
 2. add to configuration file
 ```
 <domain>
@@ -12,3 +14,4 @@
   </qemu:commandline>
 </domain>
 ```
+3. compile and run from host
